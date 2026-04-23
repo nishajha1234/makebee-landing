@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import {travelLandscape} from "../assets/images/hero-bg.jpg"
 
 export default function Hero() {
 
@@ -25,7 +26,7 @@ export default function Hero() {
 
       {/* 🌄 BACKGROUND IMAGE */}
       <img
-        src="./src/assets/images/hero-bg.jpg"
+        src={travelLandscape}
         alt="Travel landscape"
         className="absolute inset-0 w-full h-full object-cover"
       />
