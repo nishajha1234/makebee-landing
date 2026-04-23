@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import {travelLandscape} from "../assets/images/hero-bg.jpg"
 
 export default function Hero() {
 
@@ -26,7 +25,7 @@ export default function Hero() {
 
       {/* 🌄 BACKGROUND IMAGE */}
       <img
-        src={travelLandscape}
+        src="https://images.openai.com/static-rsc-4/5P3oaXTfrZ3XycOilC-chXzjWEVB-V_q8GwIye8W75_iejYtSFuQiNi_uj_idQOFVXGQ8yFBxa4kvmVlb9NqCp_uuauafIE0j2YzgwGJPwblilT3FGGlq4-ICirrmGCt_JtGoAkn5lP6mY4vI7E1cgj9dcqxpHNaje8BS-Q1IiP986bPFjApd860deFaMacO?purpose=fullsize"
         alt="Travel landscape"
         className="absolute inset-0 w-full h-full object-cover"
       />
