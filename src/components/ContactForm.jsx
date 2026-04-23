@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function ContactForm() {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="contact" className="py-24 relative overflow-hidden">
 
       {/* 🌫️ Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-50/40 to-purple-50/40"></div>

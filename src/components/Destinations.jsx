@@ -36,7 +36,7 @@ export default function Destinations() {
   }, []);
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="destinations" className="py-24 relative overflow-hidden">
 
       {/* 🌌 LIVE AURORA BACKGROUND */}
       <div className="absolute inset-0 overflow-hidden">

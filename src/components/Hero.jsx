@@ -21,7 +21,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
 
       {/* 🌄 BACKGROUND IMAGE */}
       <img

@@ -34,7 +34,7 @@ export default function Services() {
   ];
 
   return (
-<section className="py-24 bg-gradient-to-b from-white to-gray-50">
+<section id="services" className="py-24 bg-gradient-to-b from-white to-gray-50">
 
       {/* 🌈 Background Gradient */}
 
